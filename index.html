@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Claim Validation</title>
+  <link rel="stylesheet" href="./css/validate-ovp.css">
+  <style>
+   
+
+  </style>
+</head>
+<body>
+
+  <div class="s-ovp">
+       <div>
+            <p id="msj"></p>
+            <div class="multiples_claims_number" id="multiplesClaimsNumber"></div>
+       </div>
+       
+      <div>
+            <label for="">Claim#</label>
+            <input type="text" name="claimID" id="claimID">
+            <button class="btn-search" id="btn-search">Search</button>
+      </div>
+     
+  </div>
+  <br>
+  <div class = 'ovp'>
+     <div class="ovp-h"> 
+         <div class="c-btns">
+                <button onclick="fn_move_forward()">Claim</button>
+                <button onclick="fun_move_backward()">Claim 1</button>
+         </div>
+        
+         <div class="t-right">
+                <label for="">Some text</label>
+         </div>
+        
+     </div>
+     <div class="ovp-h"> 
+            <div class="c-btns">
+                    <button>Claim</button>
+                    <button>Claim 2</button>
+            </div>
+           
+            <div class="t-right">
+                    <label for="">Some text</label>
+             </div>
+        </div>
+  </div>
+
+  <div class="ovp">
+      <div id = "v-claim-l" class="v-claim"></div>
+      <div id = "v-claim-r" class="v-claim"></div>
+  </div>
+
+  <br>
+  <!--Lines -->
+
+  <div class="ovp">
+        <div class="v-claim"></div>
+        <div class="v-claim"><h1></h1></div>
+    </div>
+
+    <!--Members-->
+    <div class="ovp">
+            <div class="v-claim">
+                  <!--
+                <div>
+                      <table>
+                              <tr>
+                                    <td>Claim#</td>
+                                    <td class="color">111333</td>
+                              </tr>
+                              <tr>
+                                    <td>Claim#</td>
+                                    <td class="color">111333</td>
+                              </tr>
+                              <tr>
+                                    <td>Claim#</td>
+                                    <td class="color">111333</td>
+                              </tr>
+                              <tr>
+                                    <td>Claim#</td>
+                                    <td class="color">111333</td>
+                              </tr>
+                              <tr>
+                                    <td>Claim#</td>
+                                    <td class="color">111333</td>
+                              </tr>        
+                          </table>
+                </div>
+                <div>
+                      <table>
+                              <tr>
+                                    <td>Claim#</td>
+                                    <td>111333</td>
+                              </tr>
+                              <tr>
+                                    <td>Claim#</td>
+                                    <td>111333</td>
+                              </tr>
+                              <tr>
+                                    <td>Claim#</td>
+                                    <td>111333</td>
+                              </tr>
+                              <tr>
+                                    <td>Claim#</td>
+                                    <td>111333</td>
+                              </tr>
+                              <tr>
+                                    <td>Claim#</td>
+                                    <td>111333</td>
+                              </tr>        
+                          </table>
+
+ 
+                </div>
+            -->              
+               
+              
+            </div>
+            <div class="v-claim"></div>
+        </div>
+        <br>
+        <div style="overflow-y: scroll; min-width: 60vw;box-shadow: 6px 6px 6px darkgreen ;">
+            <div class="m-window" id="m-window"></div>
+        </div>
+        
+        <footer>
+            <p></p>
+        </footer>
+
+
+
+  <!--
+
+ 
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam libero excepturi cupiditate quasi sit. Iure totam a magni, veritatis, voluptatem voluptates tempora praesentium et nisi eligendi. A saepe eaque aliquam, earum nihil quia? Nemo delectus possimus, explicabo repudiandae recusandae. Mollitia!
+    </div>
+    
+    <div>
+      Lorem ipsum dolor sit.
+    </div>
+    <div>
+      Lorem ipsum dolor sit.
+    </div>
+    <div>
+      Lorem ipsum dolor sit.
+    </div>
+    <div>
+      Lorem ipsum dolor sit.
+    </div>
+  </div>
+   -->
+  <script src="./data/claims.js"></script>
+  <script src="./js/validate-ovp.js"></script>
+   <script>
+    
+       /*
+   var animateButton = function(e) {
+
+e.preventDefault;
+//reset animation
+e.target.classList.remove('animate');
+
+e.target.classList.add('animate');
+
+e.target.classList.add('animate');
+setTimeout(function(){
+  e.target.classList.remove('animate');
+},6000);
+};
+
+var classname = document.getElementsByClassName("button");
+
+for (var i = 0; i < classname.length; i++) {
+classname[i].addEventListener('click', animateButton, false);
+}*/
+   </script>
+</body>
+</html>
